@@ -109,7 +109,7 @@ if [ $real_addr == $local_addr ] ; then
     "tcp": {
         "no_delay": true,
         "keep_alive": true,
-        "fast_open": false,
+        "fast_open": true,
         "fast_open_qlen": 20
     }
 }
@@ -146,7 +146,7 @@ EOF
     "tcp": {
         "no_delay": true,
         "keep_alive": true,
-        "fast_open": false,
+        "fast_open": true,
         "fast_open_qlen": 20
     },
     "mysql": {
